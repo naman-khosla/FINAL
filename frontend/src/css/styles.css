@@ -1,0 +1,54 @@
+.Header {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.35em;
+    padding-left: 0.35em;
+    background-color: #fff ;
+    border-style: groove;
+    justify-content: left;
+    width: 100%;
+    z-index: 500;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    top: -17px;
+    background-color: #fff;
+    justify-content: center;
+    z-index: 501;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    color: #5A5A5A;
+    background-color: #f2f2f2;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: smaller;
+    font-weight: 500;
+    z-index: 500;
+}
+
+.bottom-page-padding { 
+    clear: both;
+    height: 40px; }
+
+.container {
+    padding: 30px; /* Adjust the value as needed */
+      }
+
+a:link {
+    color: #2b6777;
+    text-decoration: none;
+    }
+
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 500; /* this specifies that the stack order of the header container has the highest priority in our app */
+}
